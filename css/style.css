@@ -547,7 +547,7 @@ h6 { font-size: 1.125rem; }
 
 /* Contact Info Cards */
 .contact-info-card {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.65);
     padding: 2rem;
     border-radius: var(--border-radius-lg);
     box-shadow: var(--shadow-lg);

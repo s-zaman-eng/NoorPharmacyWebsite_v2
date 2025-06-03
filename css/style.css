@@ -49,6 +49,10 @@ body {
     line-height: 1.6;
     color: hsl(var(--gray-800));
     background-color: hsl(var(--light));
+    background-image: url('../assets/pharmacy-bg.svg');
+    background-size: 400px 300px;
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 /* Typography */

@@ -427,6 +427,22 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// Map functionality
+function showMap() {
+    const mapSection = document.getElementById('mapSection');
+    if (mapSection) {
+        mapSection.style.display = 'block';
+        mapSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+}
+
+function hideMap() {
+    const mapSection = document.getElementById('mapSection');
+    if (mapSection) {
+        mapSection.style.display = 'none';
+    }
+}
+
 // Error handling
 window.addEventListener('error', function(e) {
     console.error('JavaScript error:', e.error);

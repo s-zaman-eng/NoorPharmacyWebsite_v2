@@ -852,3 +852,44 @@ h6 { font-size: 1.125rem; }
 .border-primary {
     border-color: hsl(var(--primary-color)) !important;
 }
+
+/* Bordered Text */
+.bordered-text {
+    background: rgba(255, 255, 255, 0.95);
+    border: 2px solid hsl(var(--primary-color) / 0.4);
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    backdrop-filter: blur(5px);
+    box-shadow: var(--shadow);
+    margin: 1rem 0;
+}
+
+/* Map Section */
+.map-section {
+    background: hsl(var(--light));
+}
+
+.map-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-lg);
+    border: 2px solid hsl(var(--primary-color) / 0.3);
+    backdrop-filter: blur(5px);
+}
+
+.map-container {
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
+.map-info h5 {
+    color: hsl(var(--gray-900));
+    margin-bottom: 0.5rem;
+}
+
+.map-info p {
+    color: hsl(var(--gray-700));
+    margin-bottom: 0;
+}

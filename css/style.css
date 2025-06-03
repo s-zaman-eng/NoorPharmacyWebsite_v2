@@ -490,17 +490,20 @@ h6 { font-size: 1.125rem; }
 .contact-item {
     display: flex;
     align-items: center;
-    background: white;
+    background: rgba(255, 255, 255, 0.95);
     padding: 2rem;
     border-radius: var(--border-radius-lg);
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-lg);
     margin-bottom: 2rem;
     transition: all 0.3s ease;
+    border: 2px solid hsl(var(--primary-color) / 0.3);
+    backdrop-filter: blur(5px);
 }
 
 .contact-item:hover {
     transform: translateY(-3px);
-    box-shadow: var(--shadow-lg);
+    box-shadow: 0 15px 30px hsl(var(--primary-color) / 0.2);
+    border-color: hsl(var(--primary-color) / 0.6);
 }
 
 .contact-icon {
@@ -544,18 +547,21 @@ h6 { font-size: 1.125rem; }
 
 /* Contact Info Cards */
 .contact-info-card {
-    background: white;
+    background: rgba(255, 255, 255, 0.95);
     padding: 2rem;
     border-radius: var(--border-radius-lg);
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-lg);
     text-align: center;
     height: 100%;
     transition: all 0.3s ease;
+    border: 2px solid hsl(var(--primary-color) / 0.3);
+    backdrop-filter: blur(5px);
 }
 
 .contact-info-card:hover {
     transform: translateY(-5px);
-    box-shadow: var(--shadow-lg);
+    box-shadow: 0 20px 40px hsl(var(--primary-color) / 0.2);
+    border-color: hsl(var(--primary-color) / 0.6);
 }
 
 .contact-info-card .contact-icon {
@@ -589,10 +595,12 @@ h6 { font-size: 1.125rem; }
 
 /* Hours Card */
 .hours-card {
-    background: white;
+    background: rgba(255, 255, 255, 0.95);
     padding: 2.5rem;
     border-radius: var(--border-radius-lg);
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-lg);
+    border: 2px solid hsl(var(--primary-color) / 0.3);
+    backdrop-filter: blur(5px);
 }
 
 .hours-list {
@@ -622,10 +630,12 @@ h6 { font-size: 1.125rem; }
 
 /* Contact Form */
 .contact-form-card {
-    background: white;
+    background: rgba(255, 255, 255, 0.95);
     padding: 2.5rem;
     border-radius: var(--border-radius-lg);
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-lg);
+    border: 2px solid hsl(var(--primary-color) / 0.3);
+    backdrop-filter: blur(5px);
 }
 
 .form-label {
@@ -656,11 +666,13 @@ h6 { font-size: 1.125rem; }
 
 /* Emergency Section */
 .emergency-card {
-    background: white;
+    background: rgba(255, 255, 255, 0.95);
     padding: 2.5rem;
     border-radius: var(--border-radius-lg);
-    box-shadow: var(--shadow);
-    border-left: 4px solid #ff9800;
+    box-shadow: var(--shadow-lg);
+    border: 2px solid #ff9800;
+    border-left: 6px solid #ff9800;
+    backdrop-filter: blur(5px);
 }
 
 .emergency-icon {

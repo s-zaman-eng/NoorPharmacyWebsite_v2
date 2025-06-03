@@ -490,7 +490,7 @@ h6 { font-size: 1.125rem; }
 .contact-item {
     display: flex;
     align-items: center;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.65);
     padding: 2rem;
     border-radius: var(--border-radius-lg);
     box-shadow: var(--shadow-lg);

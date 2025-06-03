@@ -49,10 +49,27 @@ body {
     line-height: 1.6;
     color: hsl(var(--gray-800));
     background-color: hsl(var(--light));
-    background-image: url('../assets/pharmacy-bg.svg');
-    background-size: 400px 300px;
-    background-repeat: repeat;
-    background-attachment: fixed;
+    /* Add your pharmacy background image here */
+    /* background-image: url('assets/your-pharmacy-image.jpg'); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+    position: relative;
+}
+
+/* Translucent overlay for readability when background image is added */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.85);
+    z-index: -1;
+    pointer-events: none;
+    display: none; /* Enable when background image is added */
 }
 
 /* Typography */

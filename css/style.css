@@ -1,8 +1,8 @@
 :root {
     /* Primary Colors - Green theme matching the logo */
-    --primary-color: 52 168% 45%; /* #4CAF50 */
-    --primary-dark: 52 168% 35%; /* #388E3C */
-    --primary-light: 52 168% 85%; /* #C8E6C9 */
+    --primary-color: 122 39% 49%; /* #4CAF50 */
+    --primary-dark: 122 53% 23%; /* #2E7D32 */
+    --primary-light: 122 39% 78%; /* #C8E6C9 */
     
     /* Neutral Colors */
     --dark: 0 0% 15%; /* #262626 */

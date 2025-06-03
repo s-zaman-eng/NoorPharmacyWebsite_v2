@@ -65,7 +65,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.65);
+    background-color: rgba(255, 255, 255, 0.15);
     z-index: -1;
     pointer-events: none;
 }
@@ -238,7 +238,7 @@ h6 { font-size: 1.125rem; }
 
 /* Service Cards */
 .service-card {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.45);
     padding: 2rem;
     border-radius: var(--border-radius-lg);
     box-shadow: var(--shadow-lg);

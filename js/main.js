@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initAnimations();
     initContactForm();
     initScrollToTop();
+    initMapControls();
 });
 
 // Navbar functionality
@@ -428,18 +429,22 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Map functionality
-function showMap() {
+function initMapControls() {
+    const viewMapBtn = document.getElementById('viewMapBtn');
+    const closeMapBtn = document.getElementById('closeMapBtn');
     const mapSection = document.getElementById('mapSection');
-    if (mapSection) {
-        mapSection.style.display = 'block';
-        mapSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-}
 
-function hideMap() {
-    const mapSection = document.getElementById('mapSection');
-    if (mapSection) {
-        mapSection.style.display = 'none';
+    if (viewMapBtn && mapSection) {
+        viewMapBtn.addEventListener('click', function() {
+            mapSection.style.display = 'block';
+            mapSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    }
+
+    if (closeMapBtn && mapSection) {
+        closeMapBtn.addEventListener('click', function() {
+            mapSection.style.display = 'none';
+        });
     }
 }
 

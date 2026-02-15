@@ -10,7 +10,6 @@ A professional static website for Noor Pharmacy located in Jackson Heights, NY. 
   - Insurance acceptance (all major plans)
   - OTC medications
   - Phone & utility bill payments
-  - Money transfer services
 - **Contact Information**: Complete contact details with Google Maps integration
 - **Professional Branding**: Custom green theme matching pharmacy branding
 - **Interactive Elements**: Contact forms, navigation, and map functionality
@@ -30,6 +29,7 @@ A professional static website for Noor Pharmacy located in Jackson Heights, NY. 
 
 **Address:** 3703 74th Street, Jackson Heights, NY 11372  
 **Phone:** 347-396-5303  
+**Fax : 347-369-5497
 **Email:** noorpharmacynyc@gmail.com
 
 ## Technologies Used
